@@ -15,3 +15,8 @@ Download the marmot dataset from this drive link:
 https://drive.google.com/drive/folders/1X_8WLSGwMpm4w3K3vVR-n9lNcyX3pj5t?usp=sharing
 
 You can also help yourself with the pretrained weights I have in the above drive link. 
+
+Our layoutlm model has been trained on FUNSD dataset for five epochs. We initially planned on fine tuning it on our own dataset, but we didn't have the time to label the data on our time. So, we just used the model trained on FUNSD, it performed decent enough so we went with it.
+
+TableNet is a model which is designed to detect tables on documents.
+Paper: https://arxiv.org/abs/2001.01469 Original code: https://github.com/jainammm/TableNet
