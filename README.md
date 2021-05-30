@@ -20,6 +20,7 @@ LayoutLM is a BERT based model which can classify text into 13 different classes
 TableNet is a model designed to detect tables and columns on documents. 
 
 Tablenet Paper: https://arxiv.org/abs/2001.01469 Original code: https://github.com/jainammm/TableNet
+
 The orginal code was in tensorflow so I ported it over to PyTorch. 
 
 You can have a look at tablenet notebook to train your model. I first trained 40 epochs on marmot dataset, and then trained it on our dataset for another 150 epochs(yup we overfit it). To label our dataset we first drew bounding boxes using Labelimg, but we needed segmentation masks to train our tablenet model. So, I wrote a script to convert bounding boxes in XML files to segmentation masks. Check out convert_xml2bmp.py to convert your bounding boxes to masks. 
