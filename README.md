@@ -27,4 +27,11 @@ You can have a look at tablenet notebook to train your model. I first trained 40
 
 ## Examples
 
+Orginal Image:
+
 ![page](/images/page0.jpg)
+
+Words detected by PyTesseract:
+
+![pyt](/images/without clustering.png)
+
