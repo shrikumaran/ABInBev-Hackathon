@@ -33,5 +33,5 @@ Orginal Image:
 
 Words detected by PyTesseract:
 
-![pyt](/images/without clustering.png)
+![pyt](/images/without_clustering.png)
 
