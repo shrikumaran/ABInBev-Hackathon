@@ -35,3 +35,6 @@ Words detected by PyTesseract:
 
 ![pyt](/images/without_clustering.png)
 
+After clustering the individual words detected:
+
+![clust](/images/clustered.png)
