@@ -38,3 +38,15 @@ Words detected by PyTesseract:
 After clustering the individual words detected:
 
 ![clust](/images/clustered.png)
+
+Table region predicted by TableNet:
+
+![table](/images/table_pred.bmp)
+
+Column region predicted by TableNet:
+
+![table](/images/column_pred.bmp)
+
+Clusters inside the table: 
+
+![table](/images/clusters_in_table.bmp)
